@@ -29,12 +29,16 @@ h4 {
 
 .header1 {
     background-color: rgba(61, 204, 156, 0.774);
-  padding: 15px 32px;
+  /* padding: 15px 32px; */
+  padding-top: 15px 32px;
   border-radius: 12px;
   color: rgb(4, 53, 102);
   text-align: center;
   font-size: 12px;
 height: 50px;
+align-content: center;
+align-self: center;
+
   }
   /*
   .footer1 {
