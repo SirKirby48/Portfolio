@@ -65,7 +65,7 @@ h4 {
 
 */
 @media (max-width: 600px) {
-  .column {
+  .header1 {
     width: 100%;
   }
 }
