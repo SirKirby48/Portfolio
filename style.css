@@ -26,14 +26,16 @@ h4 {
     font-family: Xanmono;
     font-size: 10px;
 }
+
 .header1 {
     background-color: rgba(61, 204, 156, 0.774);
-    text-align: center;
-    display: block;
-    padding: 15px 32px;
-    border-radius: 12px;
-    color: rgb(4, 53, 102)
+  padding: 15px 32px;
+  border-radius: 12px;
+  color: rgb(4, 53, 102);
+  text-align: center;
+  font-size: 35px;
   }
+  /*
   .footer1 {
     background-color: rgba(48, 187, 180, 0.774);
     text-align: center;
@@ -41,7 +43,33 @@ h4 {
     padding: 15px 32px;
     border-radius: 12px;
     
+  } */
+  * {
+  box-sizing: border-box;
+}
+/*
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 35px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+*/
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
   }
+}
+
 p {
     text-align: left;
     column-count: 2;
