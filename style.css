@@ -90,17 +90,19 @@ strong {
     column-width: 75px;
     color: rgb(6, 43, 80);
     font-family: Andy;
-    font-size: 12px;
+    font-size: 15px;
 }
 a:link {
     color: rgb(47, 100, 153);
 font-family: Andy;
+font-size: 18px;
 text-decoration: none;
 }
 a:hover {
     color: rgb(17, 32, 167);
     text-shadow: 2px 2px 4px, rgb(32, 18, 224);
     font-family: Xanmono;
+    font-size: 12px;
     text-decoration: none;
 }
 /*
