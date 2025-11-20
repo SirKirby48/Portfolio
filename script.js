@@ -1,18 +1,4 @@
-// nothing here
-/* ACTIVITY 3.8 EXERCISES */
 
-/* 1. Write a function named "double" that takes in a number,
-doubles it, and returns the result. (done) */
-
-/* 2. Write a function named "add" that takes in two numbers,
-and returns the sum of those numbers. (done) */
-
-/* 3. Write a function named "flipACoin" that has a 50/50
-chance of returning either "Heads" or "Tails". (done) */
-
-/* 4. Write a function named "rollDice" that takes in a number,
-and returns a random value between 1 and that number.
-Be sure to only return whole numbers - no decimals! (done) */
 
 function HelloWRLD() {
 document.getElementById("output1").innerHTML = "Hello World!";

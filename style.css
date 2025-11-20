@@ -109,7 +109,7 @@ font-family: Andy;
 src: url(Fonts/ANDYB.TTF);
 }
 body {
-background-color: mediumseagreen;
+background-color: rgb(17, 170, 86);
 overflow: auto;
 }
 
