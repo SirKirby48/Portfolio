@@ -10,15 +10,38 @@ text = "Hello there!";
 text = "Good Day to You!";
 }
 document.getElementById("output2").innerHTML = text; }
-let stat1 = document.getElementById("FirstINT").innerHTML.valueAsNumber;
-function firstChange() { 
+
+//var stat1 = 1
+Number(document.getElementById("FirstINT").innerHTML)
+/* let stat1.globalThis = 0*/
+// stat1 += FirstINT.value 
+stat1 = FirstINT.value 
+function firstChange() { let stat1 = FirstINT.value;
+//document.getElementById("FirstINT").innerHTML.value;
 document.getElementById("FirstResult").innerHTML = stat1;
+
 }
-function oneadd1() {
+
+function oneadd1() { let stat1 = Number(FirstINT.value);
 console.log(stat1);
-stat1 += 1;
+stat1 = stat1 + 1;
 console.log("+1");
 console.log(stat1);
-document.getElementById("FirstResult").innerHTML.valueAsNumber = stat1;
-console.log(document.getElementById("FirstResult").innerHTML.valueAsNumber);
+document.getElementById("FirstResult").innerHTML = stat1;
+FirstINT.value = stat1;
+console.log(FirstINT.value);
+console.log(stat1);
+
+}
+
+function oneminus1() { let stat1 = Number(FirstINT.value);
+console.log(stat1);
+stat1 = stat1 - 1;
+console.log("-1");
+console.log(stat1);
+document.getElementById("FirstResult").innerHTML = stat1;
+FirstINT.value = stat1;
+console.log(FirstINT.value);
+console.log(stat1);
+
 }
